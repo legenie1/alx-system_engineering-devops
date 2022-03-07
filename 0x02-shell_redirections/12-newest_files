@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Art | tail -n -t 10
+ls -lt --format=single-column | head -10
